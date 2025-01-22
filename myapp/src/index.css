@@ -29,7 +29,7 @@ main {
   align-items: center;
   font-size: 1em;
   overflow-y: auto;
-  background-color: blueviolet;
+  background-color: rgba(137, 43, 226, 0.058);
   position: absolute;
   top: 15vh;
   z-index: -100;
@@ -96,7 +96,7 @@ footer {
   width: 300px;
   position: absolute;
   top:190px;
-  left: 10%;
+  left: 20%;
   transform: translate(-50%, -50%);
   display: flex;
   justify-content: space-around;
@@ -127,7 +127,7 @@ footer {
   width: 300px;
   position: absolute;
   top:140px;
-  left: 10%;
+  left: 20%;
   transform: translate(-50%, -50%);
   display: flex;
   justify-content: space-around;
