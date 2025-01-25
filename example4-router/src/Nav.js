@@ -1,7 +1,9 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import { Link } from 'react-router-dom';
+import DataContext from './context/DataContext';
 
-const nav = ({search, setSearch}) => {
+const Nav = () => {
+  const {search, setSearch} = useContext(DataContext);
   return (
     <nav className='Nav'>
       <form className='searchForm' onSubmit={(e) => e.preventDefault()}>
@@ -22,4 +24,4 @@ const nav = ({search, setSearch}) => {
   )
 }
 
-export default nav
+export default Nav

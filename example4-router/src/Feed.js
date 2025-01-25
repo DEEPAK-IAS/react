@@ -1,10 +1,10 @@
 import React from 'react';
 import Post from "./Post";
 
-const Feed = ({posts}) => {
+const Feed = ({searchResults}) => {
   return (
     <>
-      {posts.map((post) => (
+      {searchResults.map((post) => (
         <Post key={post.id} post={post}/>
       ))} 
     </>

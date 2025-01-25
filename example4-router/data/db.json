@@ -1,12 +1,6 @@
 {
   "posts": [
     {
-      "id": "1",
-      "title": "my first Post",
-      "datetime": "July 01, 2021 11:17:36 AM",
-      "body": "Made a video about Tesla 01 results"
-    },
-    {
       "id": "2",
       "title": "my second Post",
       "datetime": "July 01, 2021 11:17:36 AM",
@@ -23,12 +17,6 @@
       "title": "hi",
       "dateTime": "January 24, 2025 9:51:50 PM",
       "body": "surya"
-    },
-    {
-      "id": "6",
-      "title": "welcome",
-      "dateTime": "January 24, 2025 9:52:43 PM",
-      "body": "welcome to upsc ias"
     }
   ]
 }
